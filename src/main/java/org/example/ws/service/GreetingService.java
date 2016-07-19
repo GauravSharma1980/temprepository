@@ -16,7 +16,7 @@ import org.example.ws.model.Greeting;
 public interface GreetingService {
 
     /**
-     * Find all Greeting entities.
+     * Find all Greeting entities.	
      * @return A Collection of Greeting objects.
      */ 
     Collection<Greeting> findAll();

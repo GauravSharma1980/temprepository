@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class GreetingController {
+public class GreetingController  {
 
 	private static BigInteger nextId;
 	private static String text;

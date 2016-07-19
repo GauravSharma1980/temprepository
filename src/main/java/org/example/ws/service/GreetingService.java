@@ -18,7 +18,7 @@ public interface GreetingService {
     /**
      * Find all Greeting entities.
      * @return A Collection of Greeting objects.
-     */
+     */ 
     Collection<Greeting> findAll();
 
     /**

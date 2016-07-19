@@ -13,7 +13,7 @@ import org.example.ws.model.Greeting;
  * 
  * @author Matt Warman
  */
-public interface GreetingService {
+public interface GreetingService  {
 
     /**
      * Find all Greeting entities.	

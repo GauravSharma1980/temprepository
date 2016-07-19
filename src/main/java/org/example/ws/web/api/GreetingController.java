@@ -78,7 +78,7 @@ public class GreetingController {
 	public Greeting save(Greeting greeting)
 	{
 		if(null == myGreetings )
-		{
+		{ 
 			myGreetings	 = new HashMap<BigInteger,Greeting>();
 			nextId.add(BigInteger.ONE);
 			greeting.setId(nextId);
